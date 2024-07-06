@@ -9,7 +9,7 @@ todoRouter.get('/todos/',(req,res)=>{
 
 todoRouter.post('/todos/', (req, res) => {
     DB.createTodo(req.body.title,req.body.text,req.body.done,req.body.id)
-    console.log(req.body); // No need to parse again, body-parser handles it
+    console.log(req.body); 
     res.end(JSON.stringify(DB.readTodos()))
 });
 
