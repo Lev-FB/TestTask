@@ -1,0 +1,21 @@
+.replaceButton {
+    border: none;
+    background:#3333;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.8)
+}
+.replaceButton:hover {
+    color:white;
+}
+
+.replaceInput {
+    min-width: 280px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Roboto ;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
