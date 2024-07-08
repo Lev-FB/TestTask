@@ -1,0 +1,18 @@
+.input {
+    padding:20px;
+    font-size: 23px;
+    background: #333;
+    color: rgba(255, 255, 255, 0.5);
+    min-width: 70%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+.input:hover,.input:focus{
+    transform: scale(1.007);
+    color:rgba(255, 255, 255, 0.8);
+}
