@@ -5,7 +5,7 @@ const sql = postgres({
     port: 5432,
     database: 'postgres',
     username: 'postgres',
-    password: 'lEv4767523@',
+    password: null,
 });
 //Table = Todos
 //CREATE TABLE public."Todos" (
